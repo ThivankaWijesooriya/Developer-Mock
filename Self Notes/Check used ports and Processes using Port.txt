@@ -1,0 +1,60 @@
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+*******************************************************************
+
+with WINDOWS10 default tools:
+
+Step 1: Open Windows PowerShell as Administrator
+
+
+Step 2: Find PID (ProcessID) for port 8080:
+
+->  netstat -aon | findstr 8080
+
+TCP 0.0.0.0:8080 0.0.0.0:0 LISTEN 77777
+
+
+Step 3: Kill the zombie process
+
+taskkill /f /pid 77777
+
+where "77777" is your PID
+
+
+*****list all processes on the command line in Windows*****
+
+Working with cmd.exe:
+
+tasklist
+
+If you have Powershell:
+
+get-process
+
+******************************************************************
+https://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-listening-on-a-port-on-windows
+
+Run resmon.exe, or from Task Manager's performance tab.
+-> View Listening Ports Tab
+
+
+
+
+**********************************************************************
+https://stackoverflow.com/questions/39632667/how-to-kill-the-process-currently-using-a-port-on-localhost-in-windows
+
+https://superuser.com/questions/914782/how-do-you-list-all-processes-on-the-command-line-in-windows
+
+https://stackoverflow.com/questions/273159/how-do-i-determine-if-a-port-is-open-on-a-windows-server
+
+https://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-listening-on-a-port-on-windows
