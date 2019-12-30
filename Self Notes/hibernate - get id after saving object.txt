@@ -1,0 +1,54 @@
+
+The session.save(object) returns the id of the object, or you could alternatively call the id getter method after performing a save.
+
+Save() return value:
+
+Serializable save(Object object) throws HibernateException
+
+Returns:
+
+the generated identifier
+Getter method example:
+
+UserDetails entity:
+
+@Entity
+public class UserDetails {
+    @Id
+    @GeneratedValue
+    private int id;
+    private String name;
+
+    // Constructor, Setters & Getters
+}
+
+
+Logic to test the id's :
+
+Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+session.getTransaction().begin();
+UserDetails user1 = new UserDetails("user1");
+UserDetails user2 = new UserDetails("user2");
+
+//int userId = (Integer) session.save(user1); // if you want to save the id to some variable
+
+System.out.println("before save : user id's = "+user1.getId() + " , " + user2.getId());
+
+session.save(user1);
+session.save(user2);
+
+System.out.println("after save : user id's = "+user1.getId() + " , " + user2.getId());
+
+session.getTransaction().commit();
+Output of this code:
+
+before save : user id's = 0 , 0
+
+after save : user id's = 1 , 2
+
+As per this output, you can see that the id's were not set before we save the UserDetails entity, 
+once you save the entities then Hibernate set's the id's for your objects - user1 and user2
+
+
+More Info
+https://stackoverflow.com/questions/25561681/hibernate-get-id-after-save-object
