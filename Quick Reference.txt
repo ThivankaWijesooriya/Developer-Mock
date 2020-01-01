@@ -1,8 +1,10 @@
 
-eVideoTuition - SVN
+*********SVN************
 https://www.youtube.com/watch?v=zJdPFxBRIH8
 
-Spring Hibernate Integration
+https://www.youtube.com/watch?v=uG7eblbzkH8&list=PLXOcVQr8g7b-uBcU7gPahL4moU7HrwGBk&index=1
+
+*********Spring Hibernate Integration******
 https://www.baeldung.com/hibernate-5-spring
 
 http://websystique.com/spring/spring4-hibernate4-mysql-maven-integration-example-using-annotations/
