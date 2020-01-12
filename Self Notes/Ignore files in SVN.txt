@@ -1,0 +1,14 @@
+
+If you are using TortoiseSVN, right-click on a file and then select TortoiseSVN / Add to ignore list. This will add the file/wildcard to the svn:ignore property.
+
+svn:ignore will be checked when you are checking in files, and matching files will be ignored. I have the following ignore list for a Visual Studio .NET project:
+
+bin obj
+*.exe
+*.dll
+_ReSharper
+*.pdb
+*.suo
+You can find this list in the context menu at TortoiseSVN / Properties.
+
+https://stackoverflow.com/questions/86049/how-do-i-ignore-files-in-subversion

@@ -1,0 +1,16 @@
+
+****Method 1
+
+Right-click on the working directory in windows explorer, 
+and select "Properties" (Not TortoiseSVN->Properties). 
+You will see the Properties dialog, which will have a tab called "Subversion". 
+Click on it, and you will see the version number, 
+and other info.
+
+
+****Method 2
+
+TortoiseSVN -> Show log: The line in bold marks the current revision in your working copy.
+
+
+https://stackoverflow.com/questions/89741/can-i-see-the-currently-checked-out-revision-number-in-tortoise-svn
