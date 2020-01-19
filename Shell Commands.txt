@@ -1,0 +1,48 @@
+
+pwd              :- Present Working Directory
+
+cd /             :- Root Directory ( Root of the File System )
+
+
+ls               :- List of files and folders in the current directory ( Without Hidden Files )
+ls /             :- List of files and folders in the root directory
+ls -a            :- List of files and folders in the current directory ( Including Hidden Files )
+
+ls [directory]/  :- ls Documents/  -> List of files and folders inside Documents Directory
+                    
+                 :- ls Documents/*.html -> All files ending with .html residing in Sub Directories of Documents. 
+
+                 :- ls Documents/*.*    -> All files residing in Sub Directories of Documents.  
+                 
+                 :- ls > Documents/out.txt -> Write the list of files to new out.txt file ( Copy console and Write )
+
+                 :- ls -d */   -> List out only the directories and not files
+
+                 :- man ls  -> All Commands Related to ls
+                                     
+ctrl + alt + t   :- Open Terminal
+
+clear            :- Clears Terminal
+
+cd               :- Change Directory
+                 
+                    cd /           -> Change Directory to Root folder
+                                     
+                    cd Documents/  -> Change Directory to Documents ( Case Sensitive )
+                    
+                    cd /home/thivanka/Documents
+
+***********Example*****************
+
+pwd              -> /home/thivanka/Documents
+
+cd .. or cd ../  -> /home/thivanka ( Go one Directory/Folder Backwards )
+
+cd ../..         -> /home ( Go two Directory/Folder Backwards )
+
+ctrl + c         -> Stop Batch
+
+
+
+                    
+
