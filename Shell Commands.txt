@@ -2,6 +2,7 @@
 pwd              :- Present Working Directory
 
 cd /             :- Root Directory ( Root of the File System )
+cd ~             :- Home Directory ( /Home/Username ) -> /Home/Thivanka
 
 
 ls               :- List of files and folders in the current directory ( Without Hidden Files )
@@ -44,6 +45,15 @@ cd ../..         -> /home ( Go two Directory/Folder Backwards )
 ctrl + c         -> Stop Batch / kill a process with the signal SIGINT
 
 Ctrl + z         -> Suspending a process by sending it the signal SIGSTOP
+
+
+*********** Working With Directories/Folders Having Spaces ********
+
+cd 'My Docs'
+
+cd "My Docs"
+
+use '' or ""
 
 
 
