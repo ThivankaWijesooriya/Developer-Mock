@@ -7,6 +7,7 @@ cd /             :- Root Directory ( Root of the File System )
 ls               :- List of files and folders in the current directory ( Without Hidden Files )
 ls /             :- List of files and folders in the root directory
 ls -a            :- List of files and folders in the current directory ( Including Hidden Files )
+ls -l            :- List of files and folders, size, modified date and time, file or folder name and owner of file and its permission.
 
 ls [directory]/  :- ls Documents/  -> List of files and folders inside Documents Directory
                     
@@ -14,7 +15,7 @@ ls [directory]/  :- ls Documents/  -> List of files and folders inside Documents
 
                  :- ls Documents/*.*    -> All files residing in Sub Directories of Documents.  
                  
-                 :- ls > Documents/out.txt -> Write the list of files to new out.txt file ( Copy console and Write )
+                 :- ls > Documents/out.txt -> Write the list of files to new out.txt file ( Copy from console and Writes to destination file )
 
                  :- ls -d */   -> List out only the directories and not files
 
@@ -40,7 +41,9 @@ cd .. or cd ../  -> /home/thivanka ( Go one Directory/Folder Backwards )
 
 cd ../..         -> /home ( Go two Directory/Folder Backwards )
 
-ctrl + c         -> Stop Batch
+ctrl + c         -> Stop Batch / kill a process with the signal SIGINT
+
+Ctrl + z         -> Suspending a process by sending it the signal SIGSTOP
 
 
 
