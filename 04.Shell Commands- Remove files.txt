@@ -1,0 +1,43 @@
+To delete a single file, use the rm or unlink command followed by the file name:
+
+unlink filename
+
+rm filename
+
+If the file is write-protected, you will be prompted for confirmation, as shown below. 
+To remove the file type y and hit Enter. Otherwise, if the file is not write-protected, 
+it will be deleted without prompting.
+
+
+To delete multiple files at once, 
+use the rm command followed by the file names separated by space.
+
+rm filename1 filename2 filename3
+
+You can also use a wildcard (*) and regular expansions to match multiple files.
+For example, to remove all. pdf files in the current directory,
+use the following command:
+
+rm *.pdf
+
+When using regular expansions, first list the files with the ls command 
+so that you can see what files will be deleted before running the rm command.
+
+
+Use the rm with the -i option to confirm each file before deleting it:
+
+rm -i filename(s)
+
+
+To remove files without prompting even if the files are write-protected
+pass the -f (force) option to the rm command:
+
+rm -f filename(s)
+
+You can also combine rm options. For example, to remove all .txt files 
+in the current directory without a prompt in verbose mode, use the following command:
+
+rm -fv *.txt
+
+
+

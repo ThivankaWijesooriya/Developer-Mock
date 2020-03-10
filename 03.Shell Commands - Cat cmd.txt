@@ -1,0 +1,108 @@
+******Used To*******************
+Display Text Files
+Combining Copies of Text Files
+Creating new Text Files
+
+*******SYNTAX**********
+cat options file1 file2
+
+
+Print Content Inside File to Console =>  cat doc.txt
+
+
+Print Content of 2 Files to Console  =>  cat doc.txt doc2.txt
+
+
+Print Content Inside File to Console =>  cat -b doc.txt / cat -n doc.txt 
+with Line Numbers
+
+-b => Add Line Numbers to Non Blank Lines
+-n => Add Line Numbers to All Lines
+
+****** Example *************
+
+     cat -b doc.txt 
+
+     1  Hello World
+     2  Hello Thivanka
+
+     3  Hello Lahiru
+     4  Hello World
+
+     cat -n doc.txt 
+     
+     1  Hello World
+     2  Hello Thivanka
+     3
+     4  Hello Lahiru
+     5  Hello World
+
+*************************************************
+
+-s => Removing line break or spaces in lines
+
+     1  Hello World
+     2  Hello Thivanka
+     3
+     4
+     5
+     6  Hello Lahiru
+
+     cat -s -n  doc.txt
+
+     1  Hello World
+     2  Hello Thivanka
+     3
+     4  Hello Lahiru
+
+Leaves only 1 line break. Does not affect content of the file
+only displays in console according to our expectation.
+
+****************************************************
+
+-e => Denotes End of Line by adding a $ symbol at the end of each line
+
+     cat -s -e -n doc.txt
+    
+     1  Hello World$
+     2  Hello Thivanka$
+     3  $
+     4  Hello Lahiru$
+
+
+*****************************************************
+
+List of all commands associated with Cat cmd  =>  man cat
+
+
+NAME  => cat - concatenate files and print on the standard output
+       
+
+SYNOPSIS => cat [OPTION]... [FILE]...
+
+       
+DESCRIPTION => Concatenate FILE(s) to standard output.
+               With no FILE, or when FILE is -, read standard input.
+
+      
+       -A, --show-all
+              equivalent to -vET
+
+       -b, --number-nonblank
+              number nonempty output lines, overrides -n
+
+       -e     equivalent to -vE
+
+       -E, --show-ends
+              display $ at end of each line
+
+
+
+
+
+
+
+
+
+
+

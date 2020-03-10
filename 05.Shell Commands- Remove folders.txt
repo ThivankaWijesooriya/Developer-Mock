@@ -1,0 +1,36 @@
+To remove an empty directory, use either rmdir or rm -d followed by the 
+directory name:
+
+
+rm -d dirname
+
+rmdir dirname
+
+
+To remove non-empty directories and all the files within them, 
+use the rm command with the-r (recursive) option:
+
+
+rm -r dirname
+
+
+If a directory or a file within the directory is write-protected, 
+you will be prompted to confirm the deletion.
+
+
+To remove non-empty directories and all the files without being prompted, 
+use rm with the -r (recursive) and -f options:
+
+
+rm -rf dirname
+
+
+To remove multiple directories at once, use the rm -r command followed
+by the directory names separated by space.
+
+
+rm -r dirname1 dirname2 dirname3
+
+
+Same as with files you can also use a wildcard (*) and 
+regular expansions to match multiple directories.
