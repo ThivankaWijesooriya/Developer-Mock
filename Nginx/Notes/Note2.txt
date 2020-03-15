@@ -1,0 +1,27 @@
+NOTE 2 - NGINX
+
+*********QUESTION 1**********************
+Remote Host Identification has Changed ( Host key verification failed )
+
+This is a standard ssh error
+
+remove host entry from known_hosts
+
+~/.ssh/known_hosts
+
+remove host entry from cmd
+
+ssh-keygen -R hostname
+ssh-keygen -R 192.168.8.10
+
+-R = Remove
+
+yum package manager does not automatically start nginx so use (Only adds nginx as a Service);
+
+sudo service nginx start
+
+sudo service nginx stop
+
+
+use command to update package in centos
+yum check-update 

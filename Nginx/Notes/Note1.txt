@@ -1,0 +1,101 @@
+NOTE 1 - NGINX
+
+
+*********QUESTION 1**********************
+
+“network error: connection refused”, putty error
+
+Install open-ssh in target Linux machine solved my problem
+
+The following are the list of possibilities of this error:
+
+1) Common cause is - Your IP is blocked or not whitelisted in the server which can be done by editing the file at /etc/csf/csf.conf
+
+2) Disable the windows firewall settings and check..
+
+The above two things should work in most of the cases
+
+3) This is very unusual and when the above two options fails it is very difficult to find the solution
+
+In this case the traceroute to the server host or IP works usually but putty fails
+port 22 looks normal and working but connection fails and restarting SSH (service ssh restart) also does not work
+reboot or restart the server but still fails
+Adding IP in firewalls or whitelisting the local IP may not workout
+This case generally happens when the server is migrated or new server. IP of the old server might be whitelisted locally, 
+but don't have port 22 open, or some other local filtering is occurring for this new IP but not the old server IP..
+
+In this case you need to change the port to some 522 or 530 some unusual port will help in sorting it out.. 
+The same port you have to use for the SFTP connection also .. where as FTP connections works normally..
+
+or you have to whitelist the IP locally or open the TCP in and out to port 22 if you want to use the port 22..
+
+
+*********QUESTION 2**********************
+
+How do I find my internal ip address?
+These commands will tell you all network info
+
+ip add 
+ifconfig -a
+
+If as you say it only gives you 127.0.0.1 then there are two options:
+
+Your network card is not attached or not recognized by the system
+
+Your network DHCP server is not runnning or not connected
+
+This will give you just ip address without any extra information.
+hostname -I
+
+
+*********QUESTION 3**********************
+How to check whether ssh running ?
+
+You can just open system-monitor and see if sshd is running in the processes tab.
+ssh-agent should be by default in 10.04, but sshd will not be unless you have installed openssh-server.
+
+You can do it in the command line or terminal with
+ps -aux | grep ssh (Only lines containing ssh will be shown.)
+
+I use ssh occasionally to network the family machines, but stop sshd from running at boot time by adding the line
+service ssh stop
+
+Then when I want to use my machine as a server and connect from the other machines, I start sshd with the command
+sudo service ssh start
+
+
+*********QUESTION 4**********************
+ssh installed but I get the error: Failed to start ssh.service: Unit ssh.service not found ?
+
+The ssh binary, the SSH client, is provided by the openssh-client package, which is installed on your system.
+The ssh service runs the SSH server, provided by the openssh-server package, which isn’t installed on your system.
+The ssh package is a meta-package which installs both the client and the server.
+
+sudo apt-get install openssh-server
+
+
+*********QUESTION 5**********************
+How to install Nginx in Ubuntu ?
+
+
+using ubuntu apt package manager
+Get latest version of all the packages
+sudo apt-get update
+
+Install nginx
+apt-get install nginx
+
+process cmd to verify installation
+
+ps aux | grep nginx
+
+a=all users
+u=listing detailed information
+x=include boot processes
+
+nginx server would by default be working and listening on http port 80
+
+apt package manager automatically start nginx (No need to manually -> sudo service nginx start)
+
+ubuntu ships with apt package manager and centos ships with yum package manager
+
