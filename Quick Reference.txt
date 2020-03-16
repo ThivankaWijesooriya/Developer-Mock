@@ -10,3 +10,11 @@ https://www.baeldung.com/hibernate-5-spring
 http://websystique.com/spring/spring4-hibernate4-mysql-maven-integration-example-using-annotations/
 
 https://www.devglan.com/spring-mvc/spring-hibernate-integration-example-javaconfig
+
+
+SVN
+
+https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-cli-main.html
+https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-branchtag.html
+https://www.javacodegeeks.com/2012/11/trunk-branch-tag-and-related-concepts.html
+https://tortoisesvn.net/docs/release/TortoiseSVN_en/index.html
