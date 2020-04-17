@@ -14,3 +14,10 @@ git reset --hard origin/master
 git clean -f -d
 
 More -> https://stackoverflow.com/questions/6373277/synchronizing-a-local-git-repository-with-a-remote-one
+
+// Assuming their updates are on master, and you are on the branch you want to merge the changes into.
+
+git remote add origin https://github.com/<github-username>/<repo-name>.git
+git pull origin master
+Also note that you will then want to push the merge back to your copy of the repository:
+git push origin master
