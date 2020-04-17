@@ -23,3 +23,9 @@ Also note that you will then want to push the merge back to your copy of the rep
 git push origin master
 
 More -> https://stackoverflow.com/questions/4313125/how-to-sync-with-a-remote-git-repository
+
+If you wish to set tracking information for this branch you can do so with:
+
+git branch --set-upstream-to=origin/<branch> master
+git branch --set-upstream-to=origin/master master
+
