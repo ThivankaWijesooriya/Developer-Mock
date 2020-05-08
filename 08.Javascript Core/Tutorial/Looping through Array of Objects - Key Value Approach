@@ -1,0 +1,43 @@
+const Persons = [
+
+    {"id":1,"name":"Thivanka"},
+    {"id":2,"name":"Lahiru"}
+
+];
+
+console.log(Persons);
+
+// 0: {id: 1, name: "Thivanka"}
+// 1: {id: 2, name: "Lahiru"}
+
+
+// Iterating over the Keys
+
+const keys = Object.keys(Persons);
+
+for (const key of keys) {
+
+console.log(key);
+
+// 0
+// 1
+
+}
+
+// Iterating over the Values
+
+const values = Object.values(Persons);
+
+for (const value of values) {
+
+console.log(value);
+console.log(value.name);
+
+//   {id: 1, name: "Thivanka"}
+// Thivanka
+//   {id: 2, name: "Lahiru"}
+// Lahiru
+
+}
+
+

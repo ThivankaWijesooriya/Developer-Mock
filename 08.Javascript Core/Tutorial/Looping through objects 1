@@ -1,0 +1,50 @@
+// The better way to loop through objects is first to convert the object into an array. 
+// Then, you loop through the array.
+
+// You can convert an object into an array with three methods:
+
+// (1) Object.keys
+// (2) Object.values
+// (3) Object.entries
+
+
+// (1) Object.keys => creates an array that contains the properties of an object. 
+
+const fruits = {
+  apple: 28,
+  orange: 17,
+  pear: 54,
+}
+
+const keys = Object.keys(fruits)
+console.log(keys) // [apple, orange, pear]
+
+
+// (2) Object.values => creates an array that contains the values of every property in an object
+
+const fruits2 = {
+  apple: 28,
+  orange: 17,
+  pear: 54,
+}
+
+const values = Object.values(fruits2)
+console.log(values) // [28, 17, 54]
+
+
+// (3) Object.entries => creates an array of arrays. Each inner array has two item. 
+// The first item is the property; the second item is the value.
+
+const fruits3 = {
+  apple: 28,
+  orange: 17,
+  pear: 54,
+}
+
+const entries = Object.entries(fruits3)
+console.log(entries)
+// [
+//   [apple, 28],
+//   [orange, 17],
+//   [pear, 54]
+// ]

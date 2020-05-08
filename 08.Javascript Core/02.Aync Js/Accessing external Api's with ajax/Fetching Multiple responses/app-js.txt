@@ -1,0 +1,34 @@
+document.getElementById("btn").addEventListener("click",getData);
+
+function getData(e){
+
+    const number = document.getElementById("number").value;
+
+    const xhr = new XMLHttpRequest();
+    const Request = "GET", Url = `http://api.icndb.com/jokes/random/${number}`;
+
+    xhr.open(Request,Url,true);
+    
+    xhr.onload = function(){
+    
+        if(this.status === 200){
+            
+           const response =  JSON.parse(this.responseText);
+        // { "type": "success", "value": [ { "id": 5, "joke": "Joke 5" }, { "id": 9, "joke": "Joke 9" } ] }
+
+           let output = '';
+
+           response.value.forEach(function(key){
+
+               output += `<p>  ${key.joke}  </p>`;
+           })
+
+           document.getElementById("output").innerHTML = output;
+
+        }
+        
+    }
+    
+    xhr.send();
+    e.preventDefault();
+}

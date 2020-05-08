@@ -1,0 +1,41 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+
+		List<Integer> stList = new ArrayList<>();
+		stList.add(20);
+		stList.add(30);
+		stList.add(40);
+		
+		// Stores fractional numbers
+		List<Double> stDoubleList = new ArrayList<>();
+		stDoubleList.add(20.00);
+		stDoubleList.add(30.00);
+		stDoubleList.add(40.00);
+		
+		// Stores whole numbers
+		List<Long> stLongList = new ArrayList<>();
+		stLongList.add(1500L);
+		stLongList.add(1000L);
+		stLongList.add(500L);
+		
+		
+		int total = stList.stream().mapToInt(x -> x).sum();
+		System.out.println(total); // 90
+		
+		double totaldouble = stDoubleList.stream().mapToDouble(x -> x).sum();
+		System.out.println(totaldouble); // 90.0
+		
+		long totallong = stLongList.stream().mapToLong(x -> x).sum();
+		System.out.println(totallong); // 3000
+		
+				
+	}
+
+}

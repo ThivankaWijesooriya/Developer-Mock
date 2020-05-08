@@ -1,0 +1,22 @@
+function postMessage(callback) {
+  setTimeout(function() {
+    console.log("Hello 1");
+  }, 1000);
+
+  callback();
+}
+
+function getMessage() {
+  setTimeout(function() {
+    console.log("Hello 2");
+  }, 0);
+}
+
+postMessage(getMessage);
+
+//********Result***********
+
+// Hello 2
+// Hello 1
+
+// The event with the lowest setTimeout is executed First

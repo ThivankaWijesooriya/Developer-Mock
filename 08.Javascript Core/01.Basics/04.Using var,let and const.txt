@@ -1,0 +1,45 @@
+// Working with var
+
+var name = "Thivanka";
+console.log(name);
+name = "Lahiru";
+console.log(name);
+
+//Working with let
+
+let age = 25;
+console.log(age);
+age = 30;
+console.log(age);
+
+//Working with const (Behaves like final keyword in java)
+
+// 01. Const needs to be initialized during declaration
+//const school; => Uncaught SyntaxError: Missing initializer in const declaration
+
+const school = "Royal";
+
+// 02. Const cannot be reinitialized
+//school = "Visakha"; => Uncaught TypeError: Assignment to constant variable.
+
+// 03. Const does not allow reinitialization but properties of Arrays and Objects
+//can be mutated (Modified)
+
+//************* Const with Objects *******************
+
+const object1 = { name: "thivanka", age: 25 };
+// name: thivanka, age: 25
+object1.name = "lahiru";
+object1.age = 30;
+//name: lahiru, age: 30
+
+/* Even though properties of the Const object can be modified
+The object itself CANNOT be reinitialized as then
+you are creating a whole new object allocating memory*/
+
+// object1 = { name: "lahiru", age: 30 }; => Uncaught TypeError: Assignment to constant variable.
+
+//************* Const with Arrays ********************
+
+const arr = [1, 2, 3, 4];
+arr.push(5, 6); // [1, 2, 3, 4, 5, 6]

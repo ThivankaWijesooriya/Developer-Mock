@@ -1,0 +1,30 @@
+console.log("Hello World"); // Log text/strings
+console.log(123); // Log numbers/digits
+console.log(true); // Log booleans
+console.log([1, 2, 3, 4]); // Log Arrays
+console.log({ name: "thivanka", age: 25 }); // Log Objects
+
+// Customizing Log
+console.table([1, 2, 3, 4]); // Displays Array in table format
+console.table({ name: "thivanka", age: 25 }); // Displays Object in table format
+
+//Debugging and Logging
+console.clear(); // Clears Console
+console.error("This is an Error"); // Used to log errors -> Red Marker
+console.warn("This is an Warning"); // Used to log warnings -> Yellow Marker
+
+// Performance and Speed (Milliseconds)
+console.time("testblock");
+
+console.log("Hello World");
+console.log("Hello World");
+console.log("Hello World");
+console.log("Hello World");
+
+console.timeEnd("testblock");
+
+/* time and timeEnd allows you to calculate the time taken to Execute
+   Code within a block of code. in this example we calculate the amount
+   of time taken to execute the 'hello world' statements within the
+   'testblock' label.
+*/

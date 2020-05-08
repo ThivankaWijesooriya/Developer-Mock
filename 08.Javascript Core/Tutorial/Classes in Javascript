@@ -1,0 +1,56 @@
+class Product {
+
+  constructor(id, name, status, cost, quantity) {
+
+    this.id = id;
+    this.name = name;
+    this.status = status;
+    this.cost = cost;
+    this.quantity = quantity;
+
+  }
+
+  totalCost() {
+
+    return this.cost * this.quantity;
+
+  }
+
+  toString() {
+
+    return 'Id: ' + this.id + '\nName: ' + this.name;
+
+  }
+
+
+}
+
+// Method 1 - Class Referencing and initializing directly through variables
+
+let product1 = new Product();
+product1.id = 1;
+product1.name = 'Maliban';
+product1.status = true;
+product1.cost = 10;
+product1.quantity = 100;
+
+console.log(product1.toString());
+// Id: 1
+// Name: Maliban
+
+console.log(product1.totalCost());
+// 1000
+
+
+// Method 2 - Class Referencing and initializing through Constructor
+
+let product2 = new Product(2, 'Munchee', false, 20, 100);
+
+console.log(product2.toString());
+
+// Id: 2
+// Name: Munchee
+
+console.log(product2.totalCost());
+// 2000
+

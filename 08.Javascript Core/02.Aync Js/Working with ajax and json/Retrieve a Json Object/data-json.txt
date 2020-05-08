@@ -1,0 +1,5 @@
+{
+    "name": "Thivanka",
+    "age":25,
+    "school":"Royal College"
+}

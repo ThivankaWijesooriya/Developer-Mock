@@ -1,0 +1,36 @@
+const age = 25;
+const fullName = 'Thivanka';
+const status = true;
+const today = new Date();
+
+
+console.log('Age: ' + age);
+// Age: 25
+
+console.log('FullName: ' + fullName);
+// FullName: Thivanka
+
+console.log('Status: ' + status);
+// Status: true
+
+console.log('Today: ' + today);
+// Today: Wed May 15 2019 10:03:15 GMT+0530 (India Standard Time)
+
+
+
+age = 30;
+// Uncaught TypeError: Assignment to constant variable.
+
+
+
+const x1 = 1;
+if (x1 === 1) {
+
+  const x2 = 2;
+  console.log('x1: ' + x1);
+  // x1: 1
+
+}
+
+console.log('x2: ' + x2);
+// Uncaught ReferenceError: x2 is not defined

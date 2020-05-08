@@ -1,0 +1,22 @@
+document.getElementById("btn").addEventListener("click",getData);
+
+function getData(){
+
+    const xhr = new XMLHttpRequest();
+    const Request = "GET", Url = "http://api.icndb.com/jokes/random";
+
+    xhr.open(Request,Url,true);
+
+    xhr.onload = function(){
+
+        if(this.status === 200){
+
+        const resultSet = JSON.parse(this.responseText);
+        document.getElementById("output").innerHTML = `<p> <bold> ${resultSet.value.joke} </bold> </p>`;
+        
+        }
+    }
+
+    xhr.send();
+
+}

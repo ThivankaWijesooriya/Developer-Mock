@@ -1,0 +1,43 @@
+// Built in Constructors
+
+// Working With Numbers
+
+const num1 = 10;
+const num2 = new Number(10);
+
+// Working with Booleans
+
+const bool1 = true;
+const bool2 = new Boolean(true);
+
+// Working with Functions
+
+const add = function(a,b){
+
+    return a+b;
+}
+
+const add2 = new Function('a','b','return a+b')
+
+console.log(add2(20,10)); // 30
+
+
+// Working with Objects
+
+const obj1 = {"name":"thivanka"};
+
+const obj2 = new Object({"name":"thivanka"});
+
+// Working with Arrays
+
+const arr1 = [1,2,3,4];
+const arr2 = new Array(1,2,3,4);
+
+
+// Working With Regular Expressions
+
+const regex1 = /\w+/;
+const regex2 = new RegExp('\\w+');
+
+// When working with new RegExp() use escape sequences for backslashes (\)
+

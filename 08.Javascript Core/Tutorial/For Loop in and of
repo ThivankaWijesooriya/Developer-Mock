@@ -1,0 +1,26 @@
+
+const names = ['thivanka','Lahiru','Kushan'];
+
+// Using " in " keyword to get the index of array objects
+
+for(const nameIndex in names){
+
+    console.log(nameIndex+': '+names[nameIndex]);
+
+    // 0: thivanka
+    // 1: Lahiru
+    // 2: Kushan
+
+}
+
+// Using " of " keyword to get the value of array objects
+
+for(const nameValue of names){
+
+    console.log(nameValue);
+
+    // thivanka
+    // Lahiru
+    // Kushan
+
+}

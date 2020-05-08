@@ -1,0 +1,30 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		List<String> stList = new ArrayList<>();
+		stList.add("thivanka");
+		stList.add("lahiru");
+		stList.add("shaminda");
+
+
+		stList.stream()
+		.filter(x -> !(x.equalsIgnoreCase("lahiru")))
+		.forEach(x -> {
+			System.out.println(x);
+		});
+		
+		
+		//**** Results*****
+		
+		/*thivanka
+		  shaminda*/
+
+	}
+
+}

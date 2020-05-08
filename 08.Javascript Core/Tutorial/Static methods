@@ -1,0 +1,25 @@
+class Calculation {
+
+  static addition(x, y) {
+
+    return x + y;
+
+  }
+
+  static multiply(x, y) {
+
+    return x * y;
+
+  }
+}
+
+
+console.log('Addition: ' + Calculation.addition(10, 20));
+// Addition: 30
+
+console.log('Addition: ' + Calculation.multiply(10, 20));
+// Addition: 200
+
+
+// Static methods aren't called on instances of the class. Instead, they're called on the class itself. 
+// These are often utility functions, such as functions to create or clone objects.

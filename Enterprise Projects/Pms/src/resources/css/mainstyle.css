@@ -1,0 +1,14 @@
+.background {
+    /*background: url("../images/bgpic.jpg");*/
+    position: relative;
+     background-color: black;
+}
+
+.layer {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

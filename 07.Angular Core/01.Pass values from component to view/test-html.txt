@@ -1,0 +1,22 @@
+<p>{{ age }}</p>
+<p>{{ fullname }}</p>
+<p>{{ status }}</p>
+<p>{{ email }}</p>
+<p>{{ date }}</p>
+<p>{{ date2 }}</p>
+<p>{{ date3 }}</p>
+
+
+<!-- 25
+
+thivanka w
+
+true
+
+thiv@gmail
+
+Tue Mar 26 2019 21:21:02 GMT+0530 (India Standard Time)
+
+3/26/2019
+
+9:21:02 PM -->

@@ -1,0 +1,27 @@
+document.getElementById("btn").addEventListener("click",getData);
+
+function getData(){
+
+    const xhr = new XMLHttpRequest();
+    const Request = "GET", Url = "data.json";
+
+    xhr.open(Request,Url,true);
+
+    xhr.onload = function(){
+
+        if(this.status === 200){
+
+             const result = JSON.parse(this.responseText);
+             const output = `<ul>
+                             <li>Name: ${result.name}</li>                              
+                             <li>Age: ${result.age}</li>                             
+                             <li>School: ${result.school}</li>
+                             </ul>`;
+            
+             document.getElementById("output").innerHTML = output;
+        }
+    }
+
+    xhr.send();
+    
+}

@@ -1,0 +1,36 @@
+
+// Method 1
+const sum1 = (x, y) => x + y;
+
+console.log('Result 1: ' + sum1(5, 5)); // Result 1: 10
+
+
+// Method 2
+const sum2 = (x, y) => {
+
+  return x + y;
+}
+
+console.log('Result 2: ' + sum2(10, 5)); // Result 2: 15
+
+
+// Method 3
+const sum3 = (x) => {
+
+  return (y) => {
+
+    return x + y;
+
+  }
+}
+
+console.log('Result 3: ' + sum2(10, 20)); // Result 3: 30
+
+
+// Method 4
+let profileObject = (id, name, age) => (
+  { "id": id, "name": name, "age": age }
+);
+
+console.log(profileObject(1, 'thivanka', 25));
+// {id: 1, name: "thivanka", age: 25}

@@ -1,0 +1,37 @@
+document.getElementById("btn").addEventListener("click", getData);
+
+//******* Ready State Values **********
+
+// 0 : Request not initialized
+// 1 : Server Connection Established
+// 2 : Request Received
+// 3 : Processing Request
+// 4 : Request finished and Response is ready
+
+function getData() {
+
+  const xhr = new XMLHttpRequest();
+  console.log(xhr.readyState);  // 0 readystate
+
+  xhr.open("GET", "data.txt", true);
+  console.log(xhr.readyState);  // 1 readystate
+
+  // Used for Spinners and Loaders
+  xhr.onprogress = function(event) {
+  
+  console.log(this.readyState); // 3 readystate
+
+  if(event.loaded === event.total){
+
+    console.log(this.responseText); // Hello Thivanka
+
+  }
+
+  };
+
+  xhr.send();
+
+}
+
+// Function would be called periodically before the request is completed 
+// using onProgress

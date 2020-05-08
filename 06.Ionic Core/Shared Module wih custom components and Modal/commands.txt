@@ -1,0 +1,8 @@
+One of the first actions I take in a new app is to generate a shared module.
+
+ionic g module shared
+
+This creates a new folder to fill with components, but make sure they are exported.
+
+ionic g component shared/profile --export
+ionic g component shared/login --export

@@ -1,0 +1,35 @@
+// PRIMITIVE TYPES
+
+const name = "Thivanka";
+console.log(typeof name); // string
+
+const age = 25;
+console.log(typeof age); // number (int,float,long,decimal)
+
+const married = false;
+console.log(typeof married); // boolean
+
+let email;
+console.log(typeof email); // undefined
+
+const gender = null;
+console.log(typeof gender); // object => this is a bug
+
+const sym = Symbol();
+console.log(typeof sym); // symbol
+
+// REFERENCE TYPES - OBJECTS
+
+const arr = [1, 2, 3, 4];
+console.log(typeof arr); // object
+
+const objectLiteral = { name: "thivanka", age: 25 };
+console.log(typeof objectLiteral); // object
+
+const date = new Date();
+console.log(typeof date); // object
+
+const add = (a, b) => {
+  return a + b;
+};
+console.log(typeof add); // function

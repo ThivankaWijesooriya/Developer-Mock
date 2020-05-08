@@ -1,0 +1,29 @@
+// var , let , const
+
+var name = "Thivanka"; // String's can be in single('') or double quotes("")
+console.log(name);
+
+name = "Lahiru"; // Reinitializing the same variable
+console.log(name);
+
+// Variable declaration and initialization
+
+var age; // declare variable
+age = 25; // initialize variable
+
+// Variable Naming Conventions
+
+var firstName; // Camel case
+var first_name; // Underscore
+var FirstName; // Pascal case
+var firstname; // Lower Case
+
+// A Variable can start with letters , _ , $
+
+var name;
+var $age;
+var _school;
+
+// A Variable CANNOT start with a number
+
+// var 1name;  => Uncaught SyntaxError: Invalid or unexpected token

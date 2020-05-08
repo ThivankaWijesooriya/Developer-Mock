@@ -1,0 +1,59 @@
+// Once you’ve converted the object into an array with Object.keys,
+// Object.values, or Object.entries, you can loop through it as if it was a normal array.
+
+
+// ***** METHOD 1 *******
+
+const fruits = {
+  apple: 28,
+  orange: 17,
+  pear: 54,
+}
+
+const values = Object.values(fruits);
+for (const value of values) {
+  console.log(value);
+}
+
+// 28
+// 17
+// 54
+
+
+// ***** METHOD 2 ******
+
+const fruits2 = {
+  apple: 28,
+  orange: 17,
+  pear: 54,
+}
+
+const keys = Object.keys(fruits2);
+for (const key of keys) {
+  console.log(key);
+}
+
+// apple
+// orange
+// pear
+
+
+// ****** METHOD 3 ******
+
+// If you use Object.entries you might want to destructure the array into its key and property.
+
+const fruits3 = {
+  apple: 28,
+  orange: 17,
+  pear: 54,
+}
+
+const entries = Object.entries(fruits3);
+
+for (const [key, value] of entries) {
+  console.log(`There are ${value} ${key}s`)
+}
+
+// There are 28 apples
+// There are 17 oranges
+// There are 54 pears

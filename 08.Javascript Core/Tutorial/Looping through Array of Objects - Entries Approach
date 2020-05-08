@@ -1,0 +1,19 @@
+const Persons = [
+
+    {"id":1,"name":"Thivanka"},
+    {"id":2,"name":"Lahiru"}
+
+];
+
+
+const entries = Object.entries(Persons)
+
+for (const [key, value] of entries) {
+    
+console.log(`Array index: ${key} , Id: ${value.id} , Name: ${value.name}`);
+
+// Array index: 0 , Id: 1 , Name: Thivanka
+// Array index: 1 , Id: 2 , Name: Lahiru
+
+}
+

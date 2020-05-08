@@ -1,0 +1,28 @@
+<h3>Employee Details</h3>
+
+<table>
+  <tr>
+    <td>id</td>
+    <td>{{ employee.id }}</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>{{ employee.name }}</td>
+  </tr>
+  <tr>
+    <td>Photo</td>
+    <td><img src="assets/images/{{ employee.photo }}" width="60" /></td>
+  </tr>
+
+  <tr>
+    <td>Experiance</td>
+    <td>{{ 2 * 10 }} years</td>
+  </tr>
+</table>
+
+<!-- <<<<Employee Details>>>>
+
+id	- emp1
+name - 	Thivanka
+Photo	- displays image
+Experiance -	20 years -->

@@ -1,0 +1,11 @@
+// Single Line Comment
+
+/*
+     This
+     Is a
+     Double Line Comment
+
+*/
+
+
+// Using VS Code => (ctrl + /) for Commenting and Uncommenting

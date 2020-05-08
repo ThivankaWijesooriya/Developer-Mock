@@ -1,0 +1,32 @@
+
+
+function Person(name,dob){
+
+    this.name = name;
+    this.dob = new Date(dob);
+    this.age = function(){
+
+        // Age Calculation Formulae
+
+        const diff = Date.now() - this.dob.getTime();
+        const ageDate = new Date(diff);
+        return Math.abs( ageDate.getUTCFullYear() - 1970 );
+
+    }
+
+}
+
+const thivanka = new Person('thivanka', '1994-10-06');
+
+console.log(thivanka.dob); 
+// Thu Oct 06 1994 05:30:00 GMT+0530 (India Standard Time)
+
+console.log(thivanka.age()); // Use parenthesis as age is a function
+// 24
+
+// Date.now => Returns Current TimeStamp
+// Math.abs => Converts values to absolute || Positive values
+
+
+
+

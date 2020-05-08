@@ -1,0 +1,39 @@
+// Function Constructors
+
+// The Function constructor creates a new Function object. 
+// Calling the constructor directly can create functions dynamically.
+
+// The Function constructor creates functions which execute in the global scope only.
+
+const addition = new Function ('a', 'b','return a + b');
+console.log(addition(2,5)); // 7
+
+const addition2 = (a,b) => a + b;
+console.log(addition2(2,5)); // 7
+
+const addition3 = (a,b) => {return a + b};
+console.log(addition3(2,5)); // 7
+
+// ***************************************************
+
+// Creating new Objects using Function Constructors
+
+function Person(name,age){
+
+    this.name = name;
+    this.age = age;
+
+}
+
+// Invoking the Person constructor the new keyword
+
+const thivanka = new Person('thivanka', 25);
+console.log(thivanka);
+// Person {name: "thivanka", age: 25}
+
+const lahiru = new Person('lahiru', 28);
+console.log(lahiru);
+// Person {name: "lahiru", age: 28}
+
+console.log(lahiru.age);
+// 28

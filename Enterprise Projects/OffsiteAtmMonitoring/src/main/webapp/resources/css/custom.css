@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--- <PAGE SPACING > ---*/
+
+.space-5 {
+	margin-top:5px;
+}
+
+.space-10 {
+	margin-top:10px;
+}
+
+.space-15 {
+	margin-top:15px;
+}
+
+.space-20 {
+	margin-top:20px;
+}
+
+.space-25 {
+	margin-top:25px;
+}
+
+.space-30 {
+	margin-top:30px;
+}
+
+.space-35 {
+	margin-top:35px;
+}
+
+.space-40 {
+	margin-top:40px;
+}
+
+.space-45 {
+	margin-top:45px;
+}
+
+.space-50 {
+	margin-top:50px;
+}
+
+.space-55 {
+	margin-top:55px;
+}
+
+.space-60 {
+	margin-top:60px;
+}
+
+.space-65 {
+	margin-top:65px;
+}
+
+.space-70 {
+	margin-top:70px;
+}
+
+/*--- <PAGE SPACING/> ---*/
+
+body {
+    font-family: Calibri;
+}
+
+@font-face {
+  font-family: 'MUSEO300';
+  src: url('../fonts/MUSEO300-REGULAR.OTF');
+}
+
+@font-face {
+  font-family: 'MUSEO500';
+  src: url('../fonts/MUSEO500-REGULAR.OTF');
+}
+
+
+.onezero-c1 {
+	color: #F04E23;
+}
+
+.onezero-c2 {
+	color: #263A90;
+}
+
+/*.backhome {
+    position:relative;
+}
+
+.backhome a {
+    position:absolute;
+    width:40px;
+    left:0;
+    top:50px;
+}
+
+.backhome a img {
+    width:40px;
+}*/
+
+.mainbox .panel-heading {
+    font-family: 'MUSEO500';
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.mainbox {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mainbox .panel-body {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mainbox .panel-body {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mainbox .panel-body .input-group {
+    margin-bottom: 15px;
+}
+
+.mainbox .panel-body .form-group div {
+    text-align:center;
+}
+
+.mainbox .panel-body .form-group .btn {
+    margin-bottom: 0px;
+    width: 110px;
+    font-size: 14px;
+}
+
+.mainbox .panel-body .form-group {
+    margin-bottom: 3px;
+}
+
+.mainbox .control {
+    text-align:center;
+}
+
+.mainbox .panel-heading {
+    color: #31708f;
+    background: #d9edf7;
+    border-color: #bce8f1;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.mainbox .panel-footer {
+    float: left;
+    width: 100%;
+    color: #31708f;
+    background: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.mainbox .panel-footer div {
+    font-size:13px;
+}
+
+.panel-heading img {
+    width: 160px;
+    margin-bottom: 4px;
+}
+
+.mainbox .panel-info h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.mainbox .panel-heading .panel-title {
+    font-size: 21px;
+}
+
+.mainbox .form-control {
+    height:34px;
+    font-size: 14px;
+}
+
+.form-group .btn {
+    background: #4194E5;
+    padding: 3px 6px;
+    color: #fff;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.form-group label {
+    color:rgba(0, 0, 0, 0.6);
+    line-height: 24px;
+}
+
+.my-textBoxThin {
+    height: 28px !important;
+    padding: 5px !important;
+    font-size: 12px;
+}
+
+.my-textAreaThin {
+    min-height: 40px !important;
+    padding: 5px !important;
+    font-size: 12px;
+}
+
+
+
+
+
+.mainbox .panel-info {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width:768px) {
+    .mainbox {
+        margin-top:100px;
+    }
+}
+
+@media (max-width:768px) {
+    .mainbox {
+		margin-top:30px;
+    }
+}
+
+@media (max-width:480px) {
+    .mainbox {
+        width:100%;
+		margin-top:30px;
+    }
+}

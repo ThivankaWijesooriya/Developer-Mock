@@ -1,0 +1,23 @@
+body{
+	
+	background-color:white;
+	
+}
+
+.container> div{
+	
+	border:1px solid;
+}
+
+.container{
+	
+	display:grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 600px;
+	grid-gap: 1rem;
+}
+
+.error{
+	
+	color:red;
+}

@@ -1,0 +1,36 @@
+document.getElementById("btn").addEventListener("click",getData);
+
+function getData(){
+
+    const xhr = new XMLHttpRequest();
+    const Request = "GET", Url = "data.json";
+
+    xhr.open(Request,Url,true);
+
+    xhr.onload = function(){
+
+        if(this.status === 200){
+
+        const resultSet = JSON.parse(this.responseText);
+        
+        let output = '';
+        // let allows the variable to be reassigned during array iteration
+
+        resultSet.forEach(function(result){
+            
+            output += `<ul> 
+            <li> ${result.name} </li>  
+            <li> ${result.age}  </li>  
+            <li> ${result.school} </li> </ul>`;
+        });
+
+        // += operator allows you to perform concatenation
+        
+        document.getElementById("output").innerHTML = output;
+        
+        }
+    }
+
+    xhr.send();
+
+}

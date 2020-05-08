@@ -1,0 +1,50 @@
+
+
+function message1(){
+
+    setTimeout(function(){
+
+        console.log("Post 1");
+
+    },2000);
+
+}
+
+function message2(){
+
+    setTimeout(function(){
+        
+        console.log("Post 2");
+
+    },1000);
+
+}
+
+function message3(){
+
+    setTimeout(function(){
+
+        console.log("Post 5");
+
+    },0);
+
+}
+
+message3();
+console.log("Post 4");
+message1();
+message2();
+console.log("Post 3");
+
+
+// ******** Results ****************
+
+// Post 4
+// Post 3
+// Post 5
+// Post 2
+// Post 1
+
+// Non Async messages Post 4 and 3 are printed first
+// setTimeout simply queues the code to run once the ,
+// current call stack( Non Async's like Post 4 and 3 ) have finished executing

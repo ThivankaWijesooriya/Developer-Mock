@@ -1,0 +1,147 @@
+
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
+
+        
+        
+    <form action="${pageContext.request.contextPath}/logout" method="post" id="logoutForm">
+	  <input type="hidden" 
+		name="${_csrf.parameterName}"
+		value="${_csrf.token}" />
+	</form>
+
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img
+					src="<c:url value="/resources/images/logo-pc1.png" />" />
+					<h3>ONEzero Petty Cash Management</h3></a>
+
+			</div>
+			<!-- Top Menu Items -->
+			<ul class="nav navbar-right top-nav">
+				<li><a class="total_balance">Balance : &nbsp;<label>${balance}</label></a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown"><i class="fa fa-user"></i>  ${sessionScope.LoggedName} <b
+						class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li id="sessionClear"><a href="#" onclick="document.getElementById('logoutForm').submit();"><i class="fa fa-fw fa-power-off"></i> Log
+						Out</a></li>
+					</ul></li>
+			</ul>
+			<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav side-nav">
+					
+				  
+                                 
+                    <c:if test="${sessionScope.Admin == true}">
+ 
+                        <li id="adminitem"><a href="javascript:;" data-toggle="collapse"
+						data-target="#drop1" id="adminPanel"><i class="fa fa-fw fa-arrows-v"></i>
+						 Administrator <i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="drop1" class="collapse">
+						
+							<li id="empitem"><a href="${pageContext.request.contextPath}/Employee/GetAll">Employee Master</a></li>
+							<li id="deptitem"><a href="${pageContext.request.contextPath}/Department">Department </a></li>
+							<li id="desigitem"><a href="${pageContext.request.contextPath}/Designation">Designation </a></li>
+							<li id="emptypeitem"><a href="${pageContext.request.contextPath}/Employeetype">Employee Type </a></li>
+							<li id="umgtitem"><a href="${pageContext.request.contextPath}/UserManagement"> User Management</a></li>
+							
+														
+						</ul></li>
+                                                  
+                       </c:if>  
+                       
+ 				  
+						
+					 <c:forEach items="${sessionScope.refpages}" var="item">  
+
+                             
+                       <c:if test="${item.pageid == 7}">
+ 
+                           
+                         <li id="floatitem"><a href="${pageContext.request.contextPath}/PettyCashFloat"><i class="fa fa-fw fa-dashboard"></i>
+							PettyCash Float</a></li>  
+                           
+                       </c:if> 
+                       
+                     </c:forEach>  
+
+																			
+							
+						<li id="reqitem"><a href="javascript:;" data-toggle="collapse"
+						data-target="#drop2" id="requestPanel"><i class="fa fa-fw fa-arrows-v"></i>
+						 Request <i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="drop2" class="collapse">
+						
+							<li id="iouitem"><a href="${pageContext.request.contextPath}/IOU">IOU</a></li>
+							<li id="vouitem"><a href="${pageContext.request.contextPath}/Voucher">Voucher</a></li>
+							<li id="returnitem"><a href="${pageContext.request.contextPath}/IOU_Return">IOU Return</a></li>
+														
+						</ul></li>
+						
+
+                          
+                        <c:if test="${sessionScope.Auth == true || sessionScope.Appr == true}">
+                           
+                        <li id="appauthitem"><a href="javascript:;" data-toggle="collapse"
+						data-target="#drop3" id="appauthPanel"><i class="fa fa-fw fa-arrows-v"></i>
+						 Approve/Authorize <i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="drop3" class="collapse">
+						
+						
+						  <c:if test="${sessionScope.Appr == true }">
+						 
+						     <li id="appitem"><a href="${pageContext.request.contextPath}/Request/Approve/GET">Approve</a></li>
+						     
+						  </c:if>  
+						  
+						  
+						  
+						  <c:if test="${sessionScope.Auth == true}">
+						  
+						   <li id="authitem"><a href="${pageContext.request.contextPath}/Request/Authorize/GET">Authorize</a></li>
+						 
+						  </c:if>  
+						  
+						 
+													
+						</ul></li>
+                        
+                        </c:if>   
+                           
+                    
+						
+                        <li id="passitem"><a href="${pageContext.request.contextPath}/PasswordManagement"><i class="fa fa-fw fa-dashboard"></i>
+						Password Management</a></li> 
+						
+						
+						
+						
+						<li id="reportitem"><a href="javascript:;" data-toggle="collapse"
+						data-target="#drop4" id=""><i class="fa fa-fw fa-arrows-v"></i>
+						 Report Management <i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="drop4" class="collapse">
+						
+							<li id=""><a href="${pageContext.request.contextPath}/Reports">Reimbursement Report</a></li>
+							<li id=""><a href="${pageContext.request.contextPath}/Reports/SummaryReports">Summary Report</a></li>
+							<li id=""><a href="${pageContext.request.contextPath}/Reports/UnsettledIou">Unsettled IOU</a></li>
+														
+						</ul></li>
+						
+		
+					
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</nav>

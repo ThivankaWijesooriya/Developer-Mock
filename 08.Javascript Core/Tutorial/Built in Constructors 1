@@ -1,0 +1,51 @@
+// Built in Constructors
+
+// Working With String
+
+const name1 = "Thivanka";
+const name2 = new String("Lahiru");
+
+console.log(typeof name1); // string
+console.log(typeof name2); // object
+
+console.log(name1); // Thivanka
+console.log(name2); // String {"Lahiru"}
+
+// Since name2 is an object, it can be extended with newer properties
+
+name2.foo = "bar";
+console.log(name2); // String {"Lahiru", foo: "bar"}
+
+// ***** Why its not recommended to replace primitive types with objects *******
+
+// Using Triple Equals (===)
+
+if(name2 === "Lahiru"){
+
+    console.log("YES");
+}
+
+else{
+
+    console.log("NO");
+}
+
+// Answer is NO ( "Lahiru" is a String and name2 is an object hence fails test)
+// triple equals (===) checks if both content and type are matching
+// Contents in this test match but the type is a mismatch
+
+
+// Using Double Equals (==)
+
+if(name2 == "Lahiru"){
+
+    console.log("YES");
+}
+
+else{
+
+    console.log("NO");
+}
+
+// Answer is YES
+// Double equals (==) checks only whether the contents are matching

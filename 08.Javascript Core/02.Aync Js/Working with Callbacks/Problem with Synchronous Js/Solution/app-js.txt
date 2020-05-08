@@ -1,0 +1,38 @@
+
+const posts = [{"name":"thivanka"},{"name":"Lahiru"}];
+
+function createPost(post,callback){
+
+    setTimeout(function(){
+
+        posts.push(post);
+        callback();
+
+    },3000);
+
+}
+
+function getPost(){
+
+    setTimeout(function(){
+
+        let output = '';
+        posts.forEach(function(post){
+            
+            output += `<p> ${post.name} </p>`;
+        })
+
+        document.getElementById("output").innerHTML = output;
+
+    },1000);
+
+}
+
+createPost({"name":"Chamath"},getPost);
+
+
+// *********** Result *****************
+
+// thivanka
+// Lahiru
+// Chamath
