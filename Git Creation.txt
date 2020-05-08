@@ -29,3 +29,20 @@ If you wish to set tracking information for this branch you can do so with:
 git branch --set-upstream-to=origin/<branch> master
 git branch --set-upstream-to=origin/master master
 
+
+// Change git origin or Rename repository
+
+git remote -v
+# View existing remotes
+# origin  https://github.com/user/repo.git (fetch)
+# origin  https://github.com/user/repo.git (push)
+
+git remote set-url origin https://github.com/user/repo2.git
+# Change the 'origin' remote's URL
+
+git remote -v
+# Verify new remote URL
+# origin  https://github.com/user/repo2.git (fetch)
+# origin  https://github.com/user/repo2.git (push)
+
+More -> https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository
