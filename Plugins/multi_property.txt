@@ -1,0 +1,13 @@
+foo=1,2
+
+String[] foos = properties.getProperty("foo").split(",");
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<< Dependency for Weblogic >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+                <dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.5.2</version>
+		</dependency>

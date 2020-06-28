@@ -1,0 +1,78 @@
+﻿MySQL
+
+SELECT 
+FieldA , 
+GROUP_CONCAT(FieldB ORDER BY FieldB SEPARATOR ',') AS FieldBs
+FROM TableName
+GROUP BY FieldA
+ORDER BY FieldA;
+
+Oracle & DB2
+
+SELECT 
+FieldA ,
+LISTAGG(FieldB, ',') WITHIN GROUP (ORDER BY FieldB) AS FieldBs
+FROM TableName
+GROUP BY FieldA
+ORDER BY FieldA;
+
+PostgreSQL
+
+SELECT FieldA ,
+STRING_AGG(FieldB, ',' ORDER BY FieldB) AS FieldBs
+FROM TableName
+GROUP BY FieldA
+ORDER BY FieldA;
+
+SQL Server
+
+SQL Server ≥ 2017 & Azure SQL
+
+SELECT 
+FieldA , 
+STRING_AGG(FieldB, ',') WITHIN GROUP (ORDER BY FieldB) AS FieldBs
+FROM TableName
+GROUP BY FieldA
+ORDER BY FieldA;
+
+SQL Server ≤ 2016 (CTE included to encourage the DRY principle)
+
+WITH CTE_TableName AS (
+      SELECT FieldA, FieldB
+      FROM TableName)
+SELECT t0.FieldA
+     , STUFF((
+       SELECT ',' + t1.FieldB
+       FROM CTE_TableName t1
+       WHERE t1.FieldA = t0.FieldA
+       ORDER BY t1.FieldB
+       FOR XML PATH('')), 1, LEN(','), '') AS FieldBs
+FROM CTE_TableName t0
+GROUP BY t0.FieldA
+ORDER BY FieldA;
+
+SQLite
+Ordering requires a CTE or subquery
+
+WITH CTE_TableName AS (
+       SELECT FieldA, FieldB
+       FROM TableName
+       ORDER BY FieldA, FieldB)
+SELECT 
+FieldA , 
+GROUP_CONCAT(FieldB, ',') AS FieldBs
+FROM CTE_TableName
+GROUP BY FieldA
+ORDER BY FieldA;
+Without ordering
+
+SELECT 
+FieldA ,
+GROUP_CONCAT(FieldB, ',') AS FieldBs
+FROM TableName
+GROUP BY FieldA
+ORDER BY FieldA;
+
+
+********** More Info*****************
+https://stackoverflow.com/questions/15477743/listagg-in-sqlserver

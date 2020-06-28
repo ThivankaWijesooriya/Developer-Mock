@@ -1,0 +1,8 @@
+npm config set proxy http://"thivanka:18@thi"@10.82.151.131:3128
+npm config set https-proxy http://"thivanka:18@thi"@10.82.151.131:3128
+ionic config set -g proxy http://"thivanka:18@thi"@10.82.151.131:3128
+
+
+https://www.c-sharpcorner.com/article/how-to-use-npm-install-the-command-behind-corporate-proxy-server/
+https://stackoverflow.com/questions/7559648/is-there-a-way-to-make-npm-install-the-command-to-work-behind-proxy
+https://stackoverflow.com/questions/40171953/node-npm-proxy-authentication-how-do-i-configure-it

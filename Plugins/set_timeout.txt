@@ -1,0 +1,12 @@
+setTimeout(function() {
+  
+      $.each(obj, function(key, value) {
+
+          console.log(value.CUNBR);
+
+          $('#tblUnitdetails').DataTable().row.add([value.CUNBR, value.NIC, value.FullName]).draw();
+                           
+
+      });
+    
+}, 3000);

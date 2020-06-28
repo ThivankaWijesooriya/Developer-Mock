@@ -1,0 +1,17 @@
+https://codippa.com/how-to-send-form-data-to-spring-controller-using-ajax-how-to-submit-form-using-ajax/
+http://fruzenshtein.com/spring-mvc-ajax-jquery/
+https://spring.io/blog/2012/08/29/integrating-spring-mvc-with-jquery-for-validation-rules/
+https://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in?rq=1
+https://www.dev2qa.com/spring-autowire-use-component-repository-service-and-controller-annotations/
+https://javascript.info/json
+https://stackoverflow.com/questions/26147044/spring-cron-expression-for-every-day-101am
+https://github.com/MrRio/jsPDF/issues/1452
+https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript
+https://stackoverflow.com/questions/15233054/password-validation-with-regex-has-letters-numbers-special-8
+https://www.w3schools.com/jsref/jsref_encodeuricomponent.asp
+https://stackoverflow.com/questions/13228835/passing-hash-symbol-in-request-parameter-of-url-not-working-in-firefox
+https://stackoverflow.com/questions/18701282/what-is-content-type-and-datatype-in-an-ajax-request
+https://stackoverflow.com/questions/10943635/how-do-i-pass-multiple-parameter-in-url
+https://stackoverflow.com/questions/26230493/spring-bean-is-autowired-attribute-initialised-before-constructor
+https://stackoverflow.com/questions/35061633/how-to-connect-h2-console-to-embedded-spring-h2-db
+https://stackoverflow.com/questions/7489510/disable-xml-validation-in-eclipse/18630365
