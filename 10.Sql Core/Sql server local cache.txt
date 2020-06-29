@@ -1,0 +1,5 @@
+Edit -> Intellisense -> Refresh Local Cache (CTRL+Shift+R)
+
+*********More info**************
+
+https://stackoverflow.com/questions/2071253/sql-server-management-studio-clear-cache-code-completion
