@@ -1,0 +1,16 @@
+**********WINDOWS**************
+
+Locate the PID of the process that's using the port you want.
+
+netstat -ano | findstr :<PORT>
+
+Eg:- netstat -ano | findstr :8080
+
+Kill Process
+
+taskkill /PID <PID> /F
+
+Eg:- taskkill /PID 8276 /F
+
+Reference -> https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows
+
