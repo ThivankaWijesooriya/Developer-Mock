@@ -4,14 +4,14 @@ OAuth is an open standard for access delegation, commonly used as a way for Inte
 
 ****How OAuth Works****
 
-Resource Owner - You.
+(1) Resource Owner - You.
 
-Resource Server - Application or Server that is storing the resources.
+(2) Resource Server - Application or Server that is storing the resources.
                   eg- facebook has all our profile pics , basic info like mobile no, email etc.
 				  
-Client - All kinds of applications trying to access Resource Server
+(3) Client - All kinds of applications trying to access Resource Server
 
-Authorization Server - Application or Server providing/defining the mechanism/set of rules
+(4) Authorization Server - Application or Server providing/defining the mechanism/set of rules
                        needed by the 3rd party applications in order to grant access to shared 
 					   resources.
 					   
