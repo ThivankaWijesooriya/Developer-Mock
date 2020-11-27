@@ -10,7 +10,7 @@ OAuth is an open standard for access delegation, commonly used as a way for Inte
 
 (2) Resource Server - Application or Server that is storing the resources. eg- facebook has all our profile pics , basic info like mobile no, email etc.
                   	  
-(3) Client - All kinds of applications trying to access Resource Server
+(3) Client - All kinds of applications trying to access Resource Server.
 
 (4) Authorization Server - Application or Server providing/defining the mechanism/set of rules needed by the 3rd party applications in order to grant access to shared resources.
                    	   
