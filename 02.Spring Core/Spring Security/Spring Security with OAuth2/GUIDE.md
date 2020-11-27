@@ -20,9 +20,11 @@ Note - Facebook acts as both a Resource Server and an Authorization Server.
 ----References----
 
 ||Authorization Server||
+
 https://docs.spring.io/spring-security-oauth2-boot/docs/2.2.x-SNAPSHOT/reference/html/boot-features-security-oauth2-authorization-server.html
  
 ||Resource Server||
+
 https://docs.spring.io/spring-security-oauth2-boot/docs/2.2.x-SNAPSHOT/reference/html/boot-features-security-oauth2-resource-server.html
  
  
@@ -37,6 +39,7 @@ https://docs.spring.io/spring-security-oauth2-boot/docs/2.2.x-SNAPSHOT/reference
  ----References----
  
 ||Refreshing an Access Token||
+
 https://www.oauth.com/oauth2-servers/making-authenticated-requests/refreshing-an-access-token/
  
  
