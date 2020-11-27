@@ -12,7 +12,7 @@ OAuth is an open standard for access delegation, commonly used as a way for Inte
 
 (4) Authorization Server - Application or Server providing/defining the mechanism/set of rules needed by the 3rd party applications in order to grant access to shared resources.
                    	   
-Note - Facebook acts as both a Resource Server and an Authorization Server.
+(*) Note - Facebook acts as both a Resource Server and an Authorization Server.
 					   
 ----References----
 
@@ -25,13 +25,13 @@ https://docs.spring.io/spring-security-oauth2-boot/docs/2.2.x-SNAPSHOT/reference
 https://docs.spring.io/spring-security-oauth2-boot/docs/2.2.x-SNAPSHOT/reference/html/boot-features-security-oauth2-resource-server.html
  
  
- ****Access Tokens VS Refresh Tokens****
+****Access Tokens VS Refresh Tokens****
  
- Access Token - An access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a   particular application.
+Access Token - An access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application.
  
- Refresh Token - A Refresh tokens  are the credentials that allow the client to obtain more access tokens without needing the user to re-authenticate. 
+Refresh Token - A Refresh tokens  are the credentials that allow the client to obtain more access tokens without needing the user to re-authenticate. 
  
- Notes - When current access tokens expire or become invalid, the authorization server provides refresh tokens to the client to obtain new access token.
+(*) Notes - When current access tokens expire or become invalid, the authorization server provides refresh tokens to the client to obtain new access token.
  
  ----References----
  
