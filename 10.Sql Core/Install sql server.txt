@@ -1,0 +1,2 @@
+How To Install SQL Server Developer Edition
+https://www.sqlservertutorial.net/install-sql-server/

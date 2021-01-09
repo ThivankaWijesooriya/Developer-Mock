@@ -1,0 +1,11 @@
+SQL Server Agent Jobs: How to execute a job step without executing the entire job - Stack Overflow
+https://stackoverflow.com/questions/6412950/sql-server-agent-jobs-how-to-execute-a-job-step-without-executing-the-entire-jo
+
+Stop a job vs Disable a job
+https://social.msdn.microsoft.com/Forums/sqlserver/en-US/c14bbb60-0991-46a1-9dd8-e0ea497c12e0/stop-a-job-vs-disable-a-job?forum=sqlgetstarted#:~:text=Stopping%20a%20job%20will%20only,future%20executions%20of%20the%20job.
+
+(89) Scheduling SQL Server Jobs with SQL Agent - YouTube
+https://www.youtube.com/watch?v=b25r0jDseOQ
+
+(89) SQL Server DBA Tutorial 01- How to install SQL Server 2014 step by step - YouTube
+https://www.youtube.com/watch?v=bi9bIophxxE&list=PLWf6TEjiiuIDBRe0OnAjGKgtUA6gwOyci

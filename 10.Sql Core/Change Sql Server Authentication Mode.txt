@@ -1,0 +1,25 @@
+Use SSMS
+
+In Object Explorer, expand Security, expand Logins, right-click sa, and then click Properties.
+
+On the General page, you might have to create and confirm a password for the sa login.
+
+On the Status page, in the Login section, click Enabled, and then click OK.
+
+
+The server was set to Windows Authentication only by default. There isn't any notification, that the origin of the errors is that, so it's hard to figure it out. The SQL Management studio dont alert, even if you create a user with SQL Authentication only.
+
+So the answer is: Switch from Windows to SQL Authentication:
+
+Right click on the server name and select properties;
+Select security tab;
+Enable the SQL Server and Windows Authentication mode;
+Restart the SQL Server service.
+You can now connect with your login/password.
+
+####REFS####
+Change Server Authentication Mode - SQL Server | Microsoft Docs
+https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/change-server-authentication-mode?view=sql-server-ver15
+
+No process is on the other end of the pipe (SQL Server 2012) - Stack Overflow
+https://stackoverflow.com/questions/27267658/no-process-is-on-the-other-end-of-the-pipe-sql-server-2012
