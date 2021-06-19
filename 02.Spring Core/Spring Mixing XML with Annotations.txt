@@ -1,0 +1,8 @@
+Bootstrapping Hibernate 5 with Spring | Baeldung
+https://www.baeldung.com/hibernate-5-spring
+
+Bootstrap a Web Application with Spring 5 | Baeldung
+https://www.baeldung.com/bootstraping-a-web-application-with-spring-and-java-based-configuration
+
+Spring - Mixing XML and JavaConfig - Mkyong.com
+https://mkyong.com/spring/spring-mixing-xml-and-javaconfig/
