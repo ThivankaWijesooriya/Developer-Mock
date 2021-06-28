@@ -1,0 +1,23 @@
+For the 3rd Point we need these infra requirements as well ;
+
+3. Direct Access to  App Server from outside networks ( to test the Agora )  
+
+Can you kindly whitelist these PORTS and IP's from Firewall from / to AppServer
+
+1)  Open ports 5228, 5229, 5230 , 443  for Firebase communication. 
+
+2)  Opened communication at proxy level between the source server and following URLs:
+
+     * fcm.googleapis.com
+
+     * gcm-http.googleapis.com
+
+     * accounts.google.com
+
+     * oauth2.googleapis.com
+	 
+	 * https://firebaseinstallations.googleapis.com
+
+
+NOTE - You need to open all traffic to / from those hosts.
+
