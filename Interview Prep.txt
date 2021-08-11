@@ -1,0 +1,39 @@
+Download MS teamclient
+Past projects(petty cach /offsite atm)
+core java / design patterns ( dao / mvc / factory /singleton ) / stream api
+RabbitMQ /JMS
+Spring /Boot /Hibernate
+Doker / Kubernates / Jenkins
+software architecture / performance
+
+check overview videos ( step by step channel youtube )
+check devnotes folder
+geeks for geeks
+
+
+
+sticky sessions
+https://www.geeksforgeeks.org/java-gq/
+https://www.youtube.com/results?search_query=java+brains+microservices
+http://java.candidjava.com/tutorial/Java-program-to-find-the-largest-number-in-an-array.htm
+
+https://stackoverflow.com/questions/28896120/why-filenotfoundexception-is-checkedexception
+
+
+-----Interview Prep-----
+Solid principles
+Design patterns
+String
+OOP
+Error Handling
+collections
+
+How to make software secure
+How to investigate issue
+Java and Sql performance monitoring
+
+angular interview questions
+microservices
+
+
+

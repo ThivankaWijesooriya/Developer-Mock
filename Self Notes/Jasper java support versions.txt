@@ -1,0 +1,5 @@
+Identifying the version of Java used by iReport | Jaspersoft Community
+https://community.jaspersoft.com/wiki/identifying-version-java-used-ireport
+
+iReport not starting using JRE 8 - Stack Overflow
+https://stackoverflow.com/questions/23902977/ireport-not-starting-using-jre-8
