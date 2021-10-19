@@ -1,0 +1,23 @@
+Drools Rule Engine for Spring Boot - Tutorial - SpringHow
+https://springhow.com/spring-boot-drools/
+
+KieExecutionServerClientTest.java example
+https://www.javatips.net/api/jbpm-examples-master/kie-server-test/src/main/java/org/jbpm/test/kieserver/KieExecutionServerClientTest.java
+
+Using Drools rules with jBPM - Mastertheboss
+http://www.mastertheboss.com/bpm/drools/drools-example-jbpm-5/
+
+jBPM - Open Source Business Automation Toolkit - Getting started
+https://www.jbpm.org/learn/gettingStarted.html
+
+spring-drools/DroolConfig.java at master · ThivankaWijesooriya/spring-drools
+https://github.com/ThivankaWijesooriya/spring-drools/blob/master/src/main/java/com/javatechie/spring/drools/api/DroolConfig.java
+
+jboss - How to change default port 8080 in WildFly - Stack Overflow
+https://stackoverflow.com/questions/27922219/how-to-change-default-port-8080-in-wildfly
+
+Portal Properties and Portal-ext Properties in Liferay
+https://www.opensource-techblog.com/portal-properties-and-portal-ext.html
+
+How to change Apache Tomcat web server port number - Stack Overflow
+https://stackoverflow.com/questions/18415578/how-to-change-apache-tomcat-web-server-port-number

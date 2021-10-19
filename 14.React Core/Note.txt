@@ -1,0 +1,19 @@
+*********Deploy Reactapp on tomcat***************
+
+java - how to deploy reactJS application on Tomcat Server - Stack Overflow
+https://stackoverflow.com/questions/47987315/how-to-deploy-reactjs-application-on-tomcat-server
+
+javascript - React-router urls don't work when refreshing or writing manually - Stack Overflow
+https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually
+
+React Router: Declarative Routing for React.js
+https://reactrouter.com/web/api/BrowserRouter
+
+BrowserRouter vs HashRouter. My experience of using BrowserRouter… | by Daniel Hramkov | Medium
+https://medium.com/@daniel.hramkov/browserrouter-vs-hashrouter-e8bf1c3824ce
+
+How to Host / Deploy React application to Tomcat Server | React | A little coding - YouTube
+https://www.youtube.com/watch?v=-GNC0wpsH-k
+
+47. BrowserRouter and HashRouter in the React Router - ReactJS. - YouTube
+https://www.youtube.com/watch?v=Kui-U1ZQVvQ

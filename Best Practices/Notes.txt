@@ -1,0 +1,15 @@
+--------------PRIVATE CONSTRUCTORS------------------
+
+Private Constructors in Java | Baeldung
+https://www.baeldung.com/java-private-constructors
+
+--------------SOLID DESIGN PRINCIPLES------------------
+
+A Solid Guide to SOLID Principles | Baeldung
+https://www.baeldung.com/solid-principles
+
+S.O.L.I.D Principles. A practical example | by Andy Sekulovski | Medium
+https://medium.com/@andy.sek94/s-o-l-i-d-principles-for-software-development-611b5f7170de
+
+SOLID Principles with Examples - HowToDoInJava
+https://howtodoinjava.com/best-practices/solid-principles/

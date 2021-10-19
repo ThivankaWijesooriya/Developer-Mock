@@ -1,0 +1,90 @@
+Spring MVC – Liferay Help Center
+https://help.liferay.com/hc/en-us/articles/360017880512-Spring-MVC
+
+Liferay Tutorial - Liferay Portal Portlet Tutorial - JournalDev
+https://www.journaldev.com/5103/liferay-tutorial-portal-portlet
+
+Liferay Portal download | SourceForge.net
+https://sourceforge.net/projects/lportal/
+
+How to create multiple portlets in single Liferay plugin project
+https://www.opensource-techblog.com/how-to-create-multiple-portlets-in.html
+
+Liferay DXP 7.2 Compatibility Matrix – Liferay Help Center
+https://help.liferay.com/hc/en-us/articles/360028982631-Liferay-DXP-7-2-Compatibility-Matrix
+
+
+Developing Applications with Liferay IDE – Liferay Help Center
+https://help.liferay.com/hc/en-us/articles/360017897772-Developing-Applications-with-Liferay-IDE-
+
+(60) Liferay Tutorial 02 :- Create your First Portlet - YouTube
+https://www.youtube.com/watch?v=W9ZDVPcyy0k&list=PL_WCPOWW_gJH0uooWBOZwtZp4EFzQL7Sn&index=2
+
+(60) Liferay Tutorial For Beginners | CE 7.3 | Developer Environment Setup | Create Workspace | Part 7 - YouTube
+https://www.youtube.com/watch?v=d6BXOeeykHU&list=PLgUtcSGR8X8LVb5arItnQlRq2dtSvKH33&index=7
+
+(60) Liferay Tutorials 06 Working with forms liferay portlet - YouTube
+https://www.youtube.com/watch?v=TUQxKJLSgf4&list=PLjtNsOowh269MjegIqitT2quMmehkUVK_&index=5
+
+
+(65) Liferay 6.2 plugin development tutorial session 6 - Creating First Portlet - YouTube
+https://www.youtube.com/watch?v=XxObUN_lnhQ&list=PL5CQWRaS3WyLiQpbKhCsRTu7jo6VdAa8L&index=6
+
+(65) Liferay Tutorial 01 - Installation of Liferay 7(DXP) - YouTube
+https://www.youtube.com/watch?v=QzGSAsYnFYM&list=PL_WCPOWW_gJFx8atHLNCGmOc6iVbnxv7E
+
+Spring MVC Portlet in Liferay - Step by step Guide
+https://www.opensource-techblog.com/spring-mvc-portlet-in-liferay.html
+
+Liferay is easy: Spring MVC Portlet in liferay
+https://liferayiseasy.blogspot.com/2015/02/spring-mvc-portlet-in-liferay.html
+
+MVC Render Command – Liferay Help Center
+https://help.liferay.com/hc/en-us/articles/360018159471-MVC-Render-Command
+
+schema - What does this web.xml error mean? - Stack Overflow
+https://stackoverflow.com/questions/13437569/what-does-this-web-xml-error-mean
+
+Disable XML validation in Eclipse - Stack Overflow
+https://stackoverflow.com/questions/7489510/disable-xml-validation-in-eclipse
+
+Removing portlets on Liferay - Stack Overflow
+https://stackoverflow.com/questions/6698896/removing-portlets-on-liferay
+
+How to permanently remove deployed portlets in Liferay 7?
+https://liferay.dev/ask/questions/portal/how-to-permanently-remove-deployed-portlets-in-liferay-7--1
+
+Multiple Render and Action methods in Spring MVC portlet in Liferay - Stack Overflow
+https://stackoverflow.com/questions/28276981/multiple-render-and-action-methods-in-spring-mvc-portlet-in-liferay
+
+
+
+maven - How to undeploy a portlet from Liferay 7? - Stack Overflow
+https://stackoverflow.com/questions/43042544/how-to-undeploy-a-portlet-from-liferay-7/69609024#69609024
+
+Deploy .war file on a server (Liferay+Tomcat Bundle) - Stack Overflow
+https://stackoverflow.com/questions/10296973/deploy-war-file-on-a-server-liferaytomcat-bundle
+
+How to undeploy a portlet?
+https://liferay.dev/ask/questions/development/how-to-undeploy-a-portlet--1
+
+Removing portlets on Liferay - Stack Overflow
+https://stackoverflow.com/questions/6698896/removing-portlets-on-liferay
+
+Liferay Tutorials 09 Passing Values from Action to Render phase - YouTube
+https://www.youtube.com/watch?v=w8jIDddi3yA&list=PLjtNsOowh26-vkpiRq_WzHKupTspgUn4V&index=10
+
+Portlet Development (Spring Edition) — intra-mart Accel Platform / Portlet Programming Guide
+http://accel-archives.intra-mart.jp/2014-winter/document/iap/public_en/im_portal/im_portlet_programming_guide/texts/portlet4spring.html
+
+How to develop portlets with Spring MVC Portlet in Liferay | mimacom
+https://blog.mimacom.com/develop-portlets-spring-mvc-liferay-2/
+
+Multiple render and action methods in Spring MVC portlet
+https://www.opensource-techblog.com/render-and-action-methods-in-spring-mvc.html
+
+4 Liferay_6.2 - Portlet Action and render mapping - YouTube
+https://www.youtube.com/watch?v=jOM06xQ807s&t=314s
+
+portletmvc4spring/portletmvc4spring.adoc at master · liferay/portletmvc4spring
+https://github.com/liferay/portletmvc4spring/blob/master/framework/src/main/asciidoc/portletmvc4spring.adoc
