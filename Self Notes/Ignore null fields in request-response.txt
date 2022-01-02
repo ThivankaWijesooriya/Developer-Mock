@@ -1,0 +1,17 @@
+Jackson Ignore Properties on Marshalling | Baeldung
+https://www.baeldung.com/jackson-ignore-properties-on-serialization
+
+3 ways to ignore null fields while converting Java object to JSON using Jackson? Example | Java67
+https://www.java67.com/2019/09/3-ways-to-ignore-null-fields-in-json-java-jackson.html
+
+How to remove some fields of an Object in Spring Boot response control? - Stack Overflow
+https://stackoverflow.com/questions/55166779/how-to-remove-some-fields-of-an-object-in-spring-boot-response-control
+
+Ignore Null Fields with Jackson | Baeldung
+https://www.baeldung.com/jackson-ignore-null-fields
+
+[Solved] Serialization Jackson Annotations: Difference Between JsonIgnoreProperties(ignoreUnknown=true) and JsonInclude(Include.NON_EMPTY) - Code Redirect
+https://coderedirect.com/questions/211609/jackson-annotations-difference-between-jsonignorepropertiesignoreunknown-true
+
+Jackson JSON - @JsonInclude NON_ABSENT Example
+https://www.logicbig.com/tutorials/misc/jackson/json-include-non-absent.html
