@@ -1,0 +1,35 @@
+
+
+Stack memory stores primitive types and the addresses of objects. 
+The object values are stored in heap memory.
+
+
+In Java, when we only declare a variable of a class type, 
+only a reference is created (memory is not allocated for the object). 
+To allocate memory to an object, we must use new(). 
+So the object is always allocated memory on heap 
+
+
+For example, following program fails in the compilation. 
+Compiler gives error “Error here because t is not initialized”.
+
+    class Test {
+ 
+      // class contents
+      void show(){
+         System.out.println("Test::show() called");
+      }
+      
+    }
+   
+    // Driver Code
+    public static void main(String[] args)
+    {
+        Test t;
+         
+        // Error here because t
+        // is not initialized
+        t.show();
+    }
+    
+    Allocating memory using new() makes above program work. 

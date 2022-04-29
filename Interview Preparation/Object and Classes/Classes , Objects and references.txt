@@ -1,0 +1,22 @@
+Class is a template or blue print used to create objects
+
+Object is a instance of a class / actual implementation of a class
+
+Example - Person is a class , using the person template we can create a object called 'Thivanka'
+          a class has attributes and functionality and object can be used to add value to those
+		  attributes and functionality.
+		  
+		  Shape is a class , using the shape clss we can create objects like square and rectanlges 
+		  (actually they are subclasses but adding value to them would make them an object)
+		  
+
+Declaration -> Person person;
+
+'person' is a memory reference/ reference variable showing where person is stored in memory
+
+Process of creating a instance is called 'instantiation' 
+
+instantiation ->  Person person = new Person()
+
+'new' keyword followed by the constructor of that class -> Person() 
+is used to allocate memory in heap ( creating a person in memory )

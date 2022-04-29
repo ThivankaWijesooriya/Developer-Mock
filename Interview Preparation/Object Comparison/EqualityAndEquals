@@ -1,0 +1,27 @@
+
+
+Equality operator(==)
+
+We can apply equality operators for every primitive type, including the boolean type. 
+We can also apply equality operators for object types. 
+
+If we apply == for object types then, 
+there should be compatibility between 
+arguments types (either child to parent or parent to child or same type). 
+Otherwise, we will get a compile-time error. 
+
+Example
+
+Thread t = new Thread();
+String s = new String("GEEKS");
+
+// Uncomment to see error 
+System.out.println(t==s);
+// error: incomparable types: Thread and String
+
+
+.equals() Method
+
+the String equals() method compares the two given strings based on the data/content of the string. 
+If all the contents of both the strings are the same, it returns true. 
+If all characters are not matched, then it returns false. 

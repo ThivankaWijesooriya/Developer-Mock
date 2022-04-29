@@ -1,0 +1,34 @@
+
+BEGIN
+
+DECLARE
+
+ @FloatAmount decimal(10,2) = 0,
+ @Balance decimal(10,2) = 0,
+ @TotalFloatAmount decimal(10,2) = 0,
+ @FloatId INT = 1;
+
+
+WHILE(@FloatId <= (SELECT Count(*) from tblTrnPettycashFloat))
+BEGIN
+
+select @FloatAmount = decAmount from tblTrnPettycashFloat where id = @FloatId;
+
+set @TotalFloatAmount = @TotalFloatAmount + @FloatAmount;
+
+set @FloatId = @FloatId + 1;
+
+END
+
+set @Balance = @Balance + @TotalFloatAmount;
+
+PRINT @Balance
+
+END
+
+
+--1506574.92
+--1506574.92
+
+
+--select SUM (decAmount) from tblTrnPettycashFloat ;

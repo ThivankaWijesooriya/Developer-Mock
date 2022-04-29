@@ -1,0 +1,38 @@
+Java - GeeksforGeeks
+https://www.geeksforgeeks.org/java-gq/
+
+Java Programming Language - GeeksforGeeks
+https://www.geeksforgeeks.org/java/?ref=shm
+
+Difference Between == and .equals() Method in Java - GeeksforGeeks
+https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/
+
+Overriding equals method in Java - GeeksforGeeks
+https://www.geeksforgeeks.org/overriding-equals-method-in-java/
+
+How are Java objects stored in memory? - GeeksforGeeks
+https://www.geeksforgeeks.org/g-fact-46/
+
+Split() String method in Java with examples - GeeksforGeeks
+https://www.geeksforgeeks.org/split-string-java-examples/?ref=leftbar-rightbar
+
+Overriding toString() Method in Java - GeeksforGeeks
+https://www.geeksforgeeks.org/overriding-tostring-method-in-java/?ref=lbp
+
+The Initializer Block in Java - GeeksforGeeks
+https://www.geeksforgeeks.org/g-fact-26-the-initializer-block-in-java/?ref=lbp
+
+Static vs Dynamic Binding in Java - GeeksforGeeks
+https://www.geeksforgeeks.org/static-vs-dynamic-binding-in-java/?ref=lbp
+
+Why to Override equals(Object) and hashCode() method ? - GeeksforGeeks
+https://www.geeksforgeeks.org/override-equalsobject-hashcode-method/
+
+Java | ==, equals(), compareTo(), equalsIgnoreCase() and compare() - GeeksforGeeks
+https://www.geeksforgeeks.org/java-equals-compareto-equalsignorecase-and-compare/
+
+equals() and hashCode() methods in Java - GeeksforGeeks
+https://www.geeksforgeeks.org/equals-hashcode-methods-java/
+
+ASCII Table
+https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html

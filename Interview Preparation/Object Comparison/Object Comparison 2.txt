@@ -1,0 +1,8 @@
+Object (Java Platform SE 7 )
+https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode()
+
+Java - How to override equals and hashCode - Mkyong.com
+https://mkyong.com/java/java-how-to-overrides-equals-and-hashcode/
+
+Java equals() and hashCode() - JournalDev
+https://www.journaldev.com/21095/java-equals-hashcode#:~:text=Java%20Object%20hashCode()%20is,in%20the%20equals()%20method.

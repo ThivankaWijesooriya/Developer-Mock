@@ -1,0 +1,20 @@
+java - How to POST form data with Spring RestTemplate? - Stack Overflow
+https://stackoverflow.com/questions/38372422/how-to-post-form-data-with-spring-resttemplate
+
+Uploading MultipartFile with Spring RestTemplate | Baeldung
+https://www.baeldung.com/spring-rest-template-multipart-upload
+
+spring - How make http request using form data by rest template? - Stack Overflow
+https://stackoverflow.com/questions/29032193/how-make-http-request-using-form-data-by-rest-template
+
+POST request with form data using Spring RestTemplate - Stack Overflow
+https://stackoverflow.com/questions/58114274/post-request-with-form-data-using-spring-resttemplate
+
+http - application/x-www-form-urlencoded or multipart/form-data? - Stack Overflow
+https://stackoverflow.com/questions/4007969/application-x-www-form-urlencoded-or-multipart-form-data
+
+APPLICATION_FORM_URLENCODED vs multipart form data - Google Search
+https://www.google.com/search?q=APPLICATION_FORM_URLENCODED+vs+multipart+form+data&oq=APPLICATION_FORM_URLENCODED+vs+multipart+form+data&aqs=chrome..69i57j0i22i30.12575j0j7&sourceid=chrome&ie=UTF-8
+
+Difference between application/x-www-form-urlencoded and multipart/form-data in HTTP/HTML?
+https://javarevisited.blogspot.com/2017/06/difference-between-applicationx-www-form-urlencoded-vs-multipart-form-data.html

@@ -1,0 +1,25 @@
+Java - GeeksforGeeks
+https://www.geeksforgeeks.org/java-gq/
+
+program to find largest number in an array | find maximum number in array
+http://java.candidjava.com/tutorial/Java-program-to-find-the-largest-number-in-an-array.htm
+
+java - Why FileNotFoundException is CheckedException? - Stack Overflow
+https://stackoverflow.com/questions/28896120/why-filenotfoundexception-is-checkedexception
+
+Java Tutorial | Learn Java Programming - javatpoint
+https://www.javatpoint.com/java-tutorial
+
+Collections in Java - javatpoint
+https://www.javatpoint.com/collections-in-java
+
+https://www.sqlshack.com/how-to-implement-error-handling-in-sql-server/
+
+
+purpose of static
+
+Spring RestTemplate - Spring REST Client Example
+https://howtodoinjava.com/spring-boot2/resttemplate/spring-restful-client-resttemplate-example/
+
+Spring Boot RestTemplate POST Example - HowToDoInJava
+https://howtodoinjava.com/spring-boot2/resttemplate/resttemplate-post-json-example/

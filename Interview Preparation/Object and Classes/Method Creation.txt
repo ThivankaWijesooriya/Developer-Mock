@@ -1,0 +1,21 @@
+
+
+Methods have 2 parts -> Method header and body ( contains implementation details )
+
+Method header has info about the method ;
+
+1 access modifiers - public , private , protected
+2 return type - void , String, int ...
+3 name and parameters
+
+__ Example___
+ 
+public int getTotal(int x, int y){
+   return x+y;
+}
+
+Method signature is a combination of method name and parameter list
+
+
+The file with the main method is often called a driver/runner/tester file
+
