@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component
@@ -32,18 +31,14 @@ public class HostClientUtil {
 
 			restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
-			HttpHeaders headers = new HttpHeaders();
-			headers.setContentType(MediaType.APPLICATION_JSON);
-
-			HttpEntity<Object> entity = new HttpEntity<>(dataSet, headers);
-
-			ObjectMapper mapper = new ObjectMapper();
+			HttpEntity<Object> entity = new HttpEntity<>(dataSet);
 
 			ResponseEntity<String> resultSet = restTemplate.exchange(baseUrl, HttpMethod.POST, entity, String.class);
 
 			System.out.println(resultSet.getStatusCodeValue());
 			System.out.println(resultSet.getBody());
 
+			ObjectMapper mapper = new ObjectMapper();
 			Object response = mapper.readValue(resultSet.getBody(), Object.class);
 
 			return response;

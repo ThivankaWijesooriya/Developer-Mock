@@ -1,7 +1,10 @@
 package com.combank.ipsinward.model.pacs002;
 
-import java.util.List;
+import java.util.Date;
 
-public class GrpHdr{
-    public List<AllOf> allOf;
+public class GrpHdr { 
+	public String MsgId;
+	public Date CreDtTm;
+	public InstgAgt InstgAgt;
+	public InstdAgt InstdAgt;
 }

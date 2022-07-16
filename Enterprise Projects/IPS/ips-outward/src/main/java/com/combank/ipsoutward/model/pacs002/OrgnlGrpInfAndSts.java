@@ -1,7 +1,9 @@
 package com.combank.ipsoutward.model.pacs002;
 
-import java.util.List;
+import java.util.Date;
 
-public class OrgnlGrpInfAndSts{
-    public List<AllOf> allOf;
+public class OrgnlGrpInfAndSts { 
+	public String OrgnlMsgId;
+	public String OrgnlMsgNmId;
+	public Date OrgnlCreDtTm;
 }

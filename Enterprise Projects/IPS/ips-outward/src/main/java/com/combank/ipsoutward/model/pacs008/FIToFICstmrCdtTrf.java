@@ -1,7 +1,9 @@
 package com.combank.ipsoutward.model.pacs008;
 
-import java.util.List;
+import javax.xml.bind.annotation.XmlType;
 
-public class FIToFICstmrCdtTrf{
-    public List<AllOf> allOf;
+@XmlType(namespace = "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.09", name = "Document")
+public class FIToFICstmrCdtTrf { 
+	public GrpHdr GrpHdr;
+	public CdtTrfTxInf CdtTrfTxInf;
 }

@@ -1,7 +1,6 @@
 package com.combank.ipsinward.model.pacs008;
-
-import java.util.List;
-
-public class UltmtCdtr{
-    public List<AllOf> allOf;
+public class UltmtCdtr { 
+	public String Nm;
+	public Id Id;
+	public CtctDtls CtctDtls;
 }

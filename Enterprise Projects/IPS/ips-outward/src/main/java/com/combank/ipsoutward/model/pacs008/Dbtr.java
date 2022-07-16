@@ -1,7 +1,6 @@
 package com.combank.ipsoutward.model.pacs008;
-
-import java.util.List;
-
-public class Dbtr{
-    public List<AllOf> allOf;
+public class Dbtr { 
+	public String Nm;
+	public Id Id;
+	public CtctDtls CtctDtls;
 }

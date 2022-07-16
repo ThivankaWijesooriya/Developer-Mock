@@ -1,7 +1,5 @@
 package com.combank.ipsoutward.model.pacs002;
-
-import java.util.List;
-
-public class DbtrAcct{
-    public List<AllOf> allOf;
+public class DbtrAcct { 
+	public Id Id;
+	public String Nm;
 }

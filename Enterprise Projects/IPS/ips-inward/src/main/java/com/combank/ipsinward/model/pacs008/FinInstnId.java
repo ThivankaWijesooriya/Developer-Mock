@@ -1,7 +1,4 @@
 package com.combank.ipsinward.model.pacs008;
-
-import java.util.List;
-
-public class FinInstnId{
-    public List<AllOf> allOf;
+public class FinInstnId { 
+	public String BICFI;
 }

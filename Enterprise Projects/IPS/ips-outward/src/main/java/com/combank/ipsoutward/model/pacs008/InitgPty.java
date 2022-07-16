@@ -1,10 +1,4 @@
 package com.combank.ipsoutward.model.pacs008;
-
-import java.util.List;
-
-public class InitgPty{
-    public String type;
-    public String description;
-    public Properties properties;
-    public List<String> required;
+public class InitgPty { 
+	public Id Id;
 }
