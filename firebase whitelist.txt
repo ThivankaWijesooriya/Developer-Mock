@@ -16,7 +16,7 @@ Can you kindly whitelist these PORTS and IP's from Firewall from / to AppServer
 
      * oauth2.googleapis.com
 	 
-	 * https://firebaseinstallations.googleapis.com
+     * https://firebaseinstallations.googleapis.com
 
 
 NOTE - You need to open all traffic to / from those hosts.
